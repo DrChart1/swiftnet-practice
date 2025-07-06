@@ -1,0 +1,164 @@
+/* screen size= 1296-  */
+@media ( max-width: 1294px) {
+   .Feature-card{
+        height: 300px;
+   }
+}
+/* screen size= 1000-900px */
+@media (max-width: 1000px) {
+        body{
+            margin: 20px 70px;
+        }
+        .nav-list{
+            margin: 0 10px;
+        }
+        .hero{
+            height: 650px;
+        }
+        .card-head{
+            margin-top: 25px;
+            margin-right: 30px;
+            margin-left: 30px;
+        }
+        .Feature-card{
+            height: 310px;
+        }
+        .hero-head{
+            margin-top: 35px;
+            margin-bottom: 10px;
+            margin-right: 50px;
+            margin-left: 50px;
+        }
+        .hero-para{
+            margin: 0 40px;
+        }
+        .cards{
+            gap: 1rem;
+        }
+}
+/* screen size= 830-720px */
+@media (max-width: 860px) {
+    body{
+        margin: 20px 30px;
+    }
+}
+/* screen size= 720-600px */
+@media (max-width: 775px) {
+    body{
+        margin: 0 0;
+    }
+    .nav-list{
+        margin: 0 3px;
+    }
+    .hero{
+        border-radius: 0;
+    }
+    .hero-head{
+        margin-top: 20px;
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+    .Feature-card{
+        border-radius: 0;
+    }
+}
+@media (max-width: 670px){
+    .cards{
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+    .hero-head{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .hero-para{
+        margin: 0 10px;
+    }
+    .hero-button{
+        margin-top: 30px;
+        
+    }
+}
+@media (max-width: 600px) {
+    body{
+        margin: 40px 0;
+    }
+    .nav-head{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        width: 100x;
+        height: 200px;
+    }
+    .nav-heading{
+        margin: 0;
+    }
+    .nav-logo{
+        margin-top: 30px;
+        width: 60px;
+        height: 60px;
+    }
+    .hero{
+        height: 700px;
+    }
+}
+@media (max-width: 530px) {
+    .hero{
+        height: 750px;
+    }
+    .cards{
+        gap: 1rem;
+    }
+}
+@media (max-width: 476px) {
+    .hero{
+        height: 800px;
+    }
+    .cards{
+        grid-template-columns: 1fr;
+    }
+    .Feature-card{
+        height: 220px;
+}
+}
+@media (max-width: 450px) {
+    .hero{
+        height: 850px;
+    }
+    .Feature-card{
+        height: 230px;
+}
+}
+@media (max-width: 394px) {
+    .hero{
+        height: 900px;
+    }
+    .Feature-card{
+        height: 250px;
+}
+}
+@media (max-width: 368px) {
+    .hero{
+        height: 1000px;
+    }
+    .Feature-card{
+        height: 260px;
+}
+}
+@media (max-width: 324px) {
+    .nav-head{
+        background-color: #ffffff;
+        margin: 0;
+        padding: 0;
+        height: 200px;
+    }
+    .nav-list{
+        margin: 0;
+        padding: 0;
+    }
+    .nav-logo{
+        margin-top: 10px;
+    }
+}
